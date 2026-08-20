@@ -21,8 +21,23 @@ End-to-end analysis of 9 relational tables from Olist's Brazilian E-Commerce dat
 * **Multi-Table Joins:** Executed multi-level `INNER JOIN` and `LEFT JOIN` operations across customer, order, payment, and seller tables.
 * **Advanced Aggregations:** Applied `SUM()`, `COUNT()`, `AVG()`, and `CASE WHEN` logic to segment revenue by payment types and order statuses.
 * **CTE & Window Functions:** Used Common Table Expressions (CTEs) alongside date functions (`DATEDIFF`) to evaluate carrier transit performance and calculate regional on-time delivery percentages.
-* **Power BI:** Visualizing sales drivers, category insights, and KPI performance.
-* **Excel:** Advanced formulas (VLOOKUP, XLOOKUP, INDEX/MATCH), Pivot Tables, and summary reporting
+## 📊 Power BI Interactive Dashboards & Analytics
+- **Dashboard Overview:** Comprehensive visual analysis tracking sales trends, customer review sentiment, and fulfillment efficiency across Brazilian states.
+
+### Key Power BI Features & Modeling
+* **Data Modeling & DAX:** Built custom DAX measures for Total Revenue, Average Order Value (AOV), On-Time Delivery %, and Year-over-Year growth.
+* **Interactive Filtering & Slicers:** Enabled dynamic cross-filtering by product category, order status, seller state, and payment type.
+* **Executive Visualizations:** Designed custom visual layouts highlighting revenue drivers, geographical fulfillment delays, and customer review distributions.
+
+---
+
+## 📈 Excel Analytics & Financial Modeling
+- **Excel Folder:** [Browse Excel Files](excel%20olist/)
+
+### Advanced Formulas & Pivot Tables
+* **Data Retrieval & Matching:** Applied `XLOOKUP`, `INDEX/MATCH`, and `VLOOKUP` formulas to merge lookup tables dynamically without modifying source data.
+* **Aggregations & Summaries:** Built interactive Pivot Tables using `SUMIFS`, `COUNTIFS`, and `AVERAGEIFS` to aggregate order volumes and shipping duration metrics.
+* **KPI Dashboards:** Created conditional formatting rules and custom charts to highlight key performance metrics and payment channel distributions.
 
 ## Key Insights
 * Identified top revenue-generating categories across transaction history.
