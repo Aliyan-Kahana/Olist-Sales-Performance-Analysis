@@ -4,8 +4,23 @@
 End-to-end analysis of 9 relational tables from Olist's Brazilian E-Commerce dataset. Joined and cleaned 40 attributes to analyze sales performance and operational trends.
 
 ## Tech Stack
-* **Python (Pandas, NumPy):** Data cleaning, date handling, and table merging.
-* **SQL (MySQL):** Complex joins, CTEs, and aggregated business metrics.
+## 🐍 Python & Pandas Data Pipeline
+- **Jupyter Notebook:** [olist sales perfomance.ipynb](olist%20sales%20perfomance.ipynb)
+
+### Core Data Engineering & Analysis
+* **Data Integration:** Merged 9 relational Olist datasets using `pd.merge()` on primary/foreign keys (`order_id`, `customer_id`, `product_id`, `seller_id`).
+* **Data Cleaning & Transformation:** Parsed date-time attributes with `pd.to_datetime()`, handled missing values, and created calculated fields for order fulfillment lead times.
+* **Aggregations & Grouping:** Utilized `groupby()` and `agg()` to calculate customer lifetime values (CLV), average order value (AOV), and category-level revenues.
+
+---
+
+## 🛢️ SQL Data Analysis & Business Queries
+- **SQL Script:** [Olist.sql](Olist.sql)
+
+### Query Capabilities & Business Logic
+* **Multi-Table Joins:** Executed multi-level `INNER JOIN` and `LEFT JOIN` operations across customer, order, payment, and seller tables.
+* **Advanced Aggregations:** Applied `SUM()`, `COUNT()`, `AVG()`, and `CASE WHEN` logic to segment revenue by payment types and order statuses.
+* **CTE & Window Functions:** Used Common Table Expressions (CTEs) alongside date functions (`DATEDIFF`) to evaluate carrier transit performance and calculate regional on-time delivery percentages.
 * **Power BI:** Visualizing sales drivers, category insights, and KPI performance.
 * **Excel:** Advanced formulas (VLOOKUP, XLOOKUP, INDEX/MATCH), Pivot Tables, and summary reporting
 
