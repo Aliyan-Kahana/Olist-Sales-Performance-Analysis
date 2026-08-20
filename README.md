@@ -30,8 +30,9 @@ End-to-end analysis of 9 relational tables from Olist's Brazilian E-Commerce dat
 - **Excel Folder:** [Browse Excel Files](excel%20olist/)
 
 ### KPI Summary & Data Model
-![Excel Key Metrics](excel%20olist/Screenshot%202026-08-20%20115531.png)
 ![Excel Data Table](excel%20olist/Screenshot%202026-08-20%20115557.png)
+![Excel Key Metrics](excel%20olist/Screenshot%202026-08-20%20115531.png)
+
 
 ### Revenue & Performance Analytics
 ![Revenue Breakdown by Payment Type](excel%20olist/Screenshot%202026-08-20%20115610.png)
