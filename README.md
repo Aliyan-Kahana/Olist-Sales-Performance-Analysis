@@ -7,6 +7,7 @@ End-to-end analysis of 9 relational tables from Olist's Brazilian E-Commerce dat
 * **Python (Pandas, NumPy):** Data cleaning, date handling, and table merging.
 * **SQL (MySQL):** Complex joins, CTEs, and aggregated business metrics.
 * **Power BI:** Visualizing sales drivers, category insights, and KPI performance.
+* **Excel:** Advanced formulas (VLOOKUP, XLOOKUP, INDEX/MATCH), Pivot Tables, and summary reporting
 
 ## Key Insights
 * Identified top revenue-generating categories across transaction history.
