@@ -26,13 +26,6 @@ End-to-end analysis of 9 relational tables from Olist's Brazilian E-Commerce dat
 ![Dashboard View 5](image/Screenshot%202026-08-20%20105415.png)
 
 ## 📊 Dataset & Schema
-## 📊 Excel Analysis & Dashboards
-- **Excel Folder:** [Browse Excel Files](excel%20olist/)
-
-### Visual Reports & Pivot Tables
-![Excel Summary Dashboard](image/your-excel-image-1.png)
-![Excel Pivot Tables](image/your-excel-image-2.png)
-![Excel Formula Models](image/your-excel-image-3.png)
 
 The dataset used in this analysis contains the unified and cleaned master dataset. The complete file exceeds GitHub's 25 MB limit and is hosted on Google Drive:
 
