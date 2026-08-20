@@ -26,7 +26,17 @@ End-to-end analysis of 9 relational tables from Olist's Brazilian E-Commerce dat
 ![Dashboard View 5](image/Screenshot%202026-08-20%20105415.png)
 
 ## 📊 Dataset & Schema
+## 📊 Excel Analysis & Dashboards
+- **Excel Folder:** [Browse Excel Files](excel%20olist/)
 
+### KPI Summary & Data Model
+![Excel Key Metrics](excel%20olist/Screenshot%202026-08-20%20115531.png)
+![Excel Data Table](excel%20olist/Screenshot%202026-08-20%20115557.png)
+
+### Revenue & Performance Analytics
+![Revenue Breakdown by Payment Type](excel%20olist/Screenshot%202026-08-20%20115610.png)
+![Review Score Distribution](excel%20olist/Screenshot%202026-08-20%20115628.png)
+![Delivery Days by State](excel%20olist/Screenshot%202026-08-20%20115839.png)
 The dataset used in this analysis contains the unified and cleaned master dataset. The complete file exceeds GitHub's 25 MB limit and is hosted on Google Drive:
 
 * 🔗 **Google Drive Link:** [Access Full Dataset](https://docs.google.com/spreadsheets/d/1YMmdyORxpQl4BuS26a99E7Gy-Sp-BcZS/edit?usp=sharing&ouid=112088017941688972371&rtpof=true&sd=true)
