@@ -32,7 +32,7 @@ End-to-end analysis of 9 relational tables from Olist's Brazilian E-Commerce dat
 ---
 
 ## 📈 Excel Analytics & Financial Modeling
-- **Excel Folder:** [Browse Excel Files](excel%20olist/)
+- **Excel Folder:** [Browse Excel Files](https://docs.google.com/spreadsheets/d/1YMmdyORxpQl4BuS26a99E7Gy-Sp-BcZS/edit?usp=drive_link&ouid=112088017941688972371&rtpof=true&sd=true)
 
 ### Advanced Formulas & Pivot Tables
 * **Data Retrieval & Matching:** Applied `XLOOKUP`, `INDEX/MATCH`, and `VLOOKUP` formulas to merge lookup tables dynamically without modifying source data.
