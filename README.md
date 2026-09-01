@@ -9,8 +9,22 @@ End-to-end analysis of 9 relational tables from Olist's Brazilian E-Commerce dat
 
 ### Core Data Engineering & Analysis
 * **Data Integration:** Merged 9 relational Olist datasets using `pd.merge()` on primary/foreign keys (`order_id`, `customer_id`, `product_id`, `seller_id`).
-* **Data Cleaning & Transformation:** Parsed date-time attributes with `pd.to_datetime()`, handled missing values, and created calculated fields for order fulfillment lead times.
 * **Aggregations & Grouping:** Utilized `groupby()` and `agg()` to calculate customer lifetime values (CLV), average order value (AOV), and category-level revenues.
+* ## Data Cleaning & Preprocessing Pipeline
+
+* `# Inspect data structure, non-null counts, and data types\ndf.info()`
+* `# Fix column names`
+* `# Remove duplicate rows`
+* `# Remove extra spaces`
+* `# Standardize text and numeric columns`
+* `# Fix spelling errors and inconsistent categories`
+* `# Fix data types`
+* `# Handle invalid values`
+* `# Handle missing values and outliers`
+* `# Drop unnecessary columns`
+* `# Create new useful columns (feature engineering)`
+* `# Verify categories`
+* `# Check final dataset`
 
 ---
 
